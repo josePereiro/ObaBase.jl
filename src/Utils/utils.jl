@@ -33,4 +33,7 @@ function find_file(vault, name; keepout = [".obsidian", ".git"])
     return path
 end
 
-
+## ------------------------------------------------------------------
+_generate_rand_id() = randstring(8)
+_generate_rand_id(n::Int) = randstring(n)
+_generate_rand_id(prefix::String, n::Int = 8) = string(prefix, randstring(n))

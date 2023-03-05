@@ -16,5 +16,3 @@ function _obsidian_url(vault::String, file::String)
     )
 end
 
-_obsidian_url() = _obsidian_url(vaultdir(), currfile())
-
