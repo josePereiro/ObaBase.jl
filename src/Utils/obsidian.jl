@@ -16,3 +16,4 @@ function _obsidian_url(vault::String, file::String)
     )
 end
 
+_onsidian_filelink(file) = string("[[", first(splitext(basename(file))), "]]")
