@@ -7,6 +7,7 @@ function _obsidian_url(vault::String, file::String)
     file = abspath(file)
     
     file = replace(file, vault => "")[2:end] # delete vault path
+    file = first(splitext(file))
     file = escapeuri(file)
     vault = escapeuri(basename(vault))
 
