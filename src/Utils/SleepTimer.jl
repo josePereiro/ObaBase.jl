@@ -12,6 +12,7 @@ function SleepTimer(tmin, tmax, dt)
     return st
 end
 
+import Base.sleep
 Base.sleep(st::SleepTimer) = sleep(st.t)
 
 export set_t!
