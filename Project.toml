@@ -1,13 +1,13 @@
 name = "ObaBase"
 uuid = "ed65db08-98aa-43d3-9a5a-577874b2c92a"
 authors = ["josePereiro <jose.pereiro.personal@gmail.com> and contributors"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-FilesTreeTools = "638332cd-b357-4bf5-bfa2-3531168477f5"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+FilesTreeTools = "638332cd-b357-4bf5-bfa2-3531168477f5"
 
 [compat]
 julia = "1.6"
